@@ -40,3 +40,11 @@ console.log(small.toLowerCase());
 let fruits = ["Apple", "Banana", "Cherry"];
 
 
+
+//Medium====
+//1----
+let inc = [5, 2, 9, 1, 7];
+ inc.sort((a,b) => a - b);
+ console.log(inc);
+  
+ 
