@@ -77,11 +77,27 @@ console.log(qism.splice(1, 2));
 //9----
 let plus = [5, 10, 15];
 let sum = 0;
-let num = plus.forEach(qosh => {
-    sum+=qosh;
+let num = plus.forEach((qosh) => {
+  sum += qosh;
 });
 console.log(sum);
 
 //10----
 let change = "123 - 456 - 789";
 console.log(change);
+
+//11----
+let m = [1, 5, 3, 7, 9];
+
+//12----
+let element = ["orange", "apple", "banana"];
+element.sort();
+console.log(element);
+
+//13----
+let juft = [2, 4, 6];
+let g = 0;
+for( let i = 0; i < juft[i]; i++) {
+    console.log("juft", i);
+    
+}
