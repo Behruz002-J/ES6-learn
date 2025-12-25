@@ -84,10 +84,14 @@ console.log(sum);
 
 //10----
 let change = "123 - 456 - 789";
-console.log(change);
+let minus = change.replaceAll("-", "");
+console.log(minus);
 
 //11----
 let m = [1, 5, 3, 7, 9];
+let max  = Math.max(...m);
+console.log(max);
+
 
 //12----
 let element = ["orange", "apple", "banana"];
