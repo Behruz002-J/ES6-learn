@@ -105,3 +105,24 @@ for( let i = 0; i < juft[i]; i++) {
     console.log("juft", i);
     
 }
+
+//14----
+// let it = "javascript";
+// let mixed = it.forEach((item) => {
+// it===item
+//  sort(it).join("").split("");
+
+// })
+// console.log(mixed);
+
+//15----
+// let C = [1, 2, 3, 4];
+// let F = 0; 
+// let S = C.every((index) => {
+//     return index = C + 1;
+// });
+// console.log(index);
+
+//very Hard=====
+
+//1----
