@@ -89,9 +89,8 @@ console.log(minus);
 
 //11----
 let m = [1, 5, 3, 7, 9];
-let max  = Math.max(...m);
+let max = Math.max(...m);
 console.log(max);
-
 
 //12----
 let element = ["orange", "apple", "banana"];
@@ -101,23 +100,20 @@ console.log(element);
 //13----
 let juft = [2, 4, 6];
 let g = 0;
-for( let i = 0; i < juft[i]; i++) {
-    console.log("juft", i);
-    
+for (let i = 0; i < juft[i]; i++) {
+  console.log("juft", i);
 }
 
 //14----
-// let it = "javascript";
-// let mixed = it.forEach((item) => {
-// it===item
-//  sort(it).join("").split("");
+const it = "javascript";
+const Str = it.split("").reverse().join("");
 
-// })
-// console.log(mixed);
+console.log(Str,it);
+console.log(Str === it);
 
 //15----
 // let C = [1, 2, 3, 4];
-// let F = 0; 
+// let F = 0;
 // let S = C.every((index) => {
 //     return index = C + 1;
 // });
